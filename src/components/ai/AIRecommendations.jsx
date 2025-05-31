@@ -29,6 +29,7 @@ const AIRecommendations = ({ currentProduct = null, title = "Recommended for You
     };
 
     fetchRecommendations();
+    window.scrollTo(0,0)
   }, [user, currentProduct]);
 
   if (loading) {
